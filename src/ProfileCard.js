@@ -12,6 +12,9 @@ function ProfileCard({ title, handle, image, description }) {
                     <p className='title is-4'>{title}</p>
                     <p className='subtitle is-6'>{handle}</p>
                 </div>
+                <div className='content'>
+                    {description}
+                </div>
             </div>
 
         </div>
